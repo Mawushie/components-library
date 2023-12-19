@@ -1,0 +1,105 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.badge {
+  display: inline-flex;
+  padding: 2px 12px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.pill {
+  border-radius: 12px;
+}
+
+.square {
+  border-radius: 4px;
+}
+
+.gray {
+  background: #f3f4f6;
+  color: #1f2937;
+}
+
+.red {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.yellow {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.green {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.blue {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.indigo {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+.purple {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+.pink {
+  background: #fce7f3;
+  color: #9d174d;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  font-family: Inter;
+  border-radius: 6px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.success {
+  background: #ecfdf5;
+}
+
+.warning {
+  background: #fffbeb;
+}
+
+.error {
+  background: #fef2f2;
+}
+
+.neutral {
+  background: #eff6ff;
+}
